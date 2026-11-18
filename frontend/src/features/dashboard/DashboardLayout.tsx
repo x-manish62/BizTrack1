@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
-import { BarChart3, Box, ChevronDown, CircleHelp, LayoutDashboard, LogOut, Menu, ShoppingBag, ShoppingCart, Store, History } from 'lucide-react'
+import { Box, ChevronDown, CircleHelp, LayoutDashboard, LogOut, Menu, ShoppingBag, ShoppingCart, Store, History } from 'lucide-react'
 import { useState } from 'react'
 import { useAuth } from '../auth/useAuth'
 import { supabase } from '../../lib/supabase'

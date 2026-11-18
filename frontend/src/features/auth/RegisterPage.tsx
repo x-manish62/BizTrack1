@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, } from 'react-router-dom'
 import { ArrowLeft, Store } from 'lucide-react'
 import { supabase, isSupabaseConfigured } from '../../lib/supabase'
 
 export default function RegisterPage() {
  const [form,setForm]=useState({shop:'',name:'',username:'',email:'',phone:'',password:'',confirm:''})
- const [error,setError]=useState(''); const [message,setMessage]=useState(''); const [busy,setBusy]=useState(false); const navigate=useNavigate()
+ const [error,setError]=useState(''); const [message,setMessage]=useState(''); const [busy,setBusy]=useState(false); //const navigate=useNavigate()
  const update=(key:keyof typeof form,value:string)=>setForm(p=>({...p,[key]:value}))
  async function submit(e:React.FormEvent){
   e.preventDefault();setError('');setMessage('')

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ArrowDownLeft, ArrowUpRight, Box, CirclePlus, IndianRupee, ShoppingBag, ShoppingCart, TrendingUp, BarChart3 } from 'lucide-react'
+import { ArrowDownLeft, ArrowUpRight, Box, CirclePlus, IndianRupee, ShoppingBag, ShoppingCart, BarChart3 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../auth/useAuth'
 import { supabase } from '../../lib/supabase'
