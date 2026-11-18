@@ -1,0 +1,16 @@
+BIZTRACK — START HERE
+
+1. Extract this ZIP.
+2. Open the BizTrack folder in VS Code.
+3. Read README.md first.
+4. Install Node.js LTS, Git and VS Code.
+5. Open terminal: cd frontend
+6. Run: npm install
+7. Create Supabase project and run supabase/migrations/0001_initial_schema.sql
+8. Copy frontend/.env.example to frontend/.env.local and add Supabase URL + anon key.
+9. Run: npm run dev
+
+Item management includes add, edit, archive, restore and safe permanent delete.
+Purchases and Sales pages are intentionally marked as placeholders; do not use this starter for real financial transactions until those modules, atomic database RPCs, approval UI, offline sync and production security review are completed.
+
+Never put Supabase service_role key in frontend.
